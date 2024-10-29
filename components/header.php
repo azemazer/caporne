@@ -1,0 +1,1 @@
+<header class="bg-green-800">Beautiful header</header>
