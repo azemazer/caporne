@@ -77,9 +77,11 @@
 
         </div>
 
+        <div class="swiper-pagination border-green-600"></div>
+
 
         <div class="absolute flex justify-center items-center m-auto left-0 right-0 w-fit bottom-12">
-          <button id="slider-button-left" class="swiper-button-prev group !p-2 flex justify-center items-center border border-solid border-green-600 !w-12 !h-12 transition-all duration-500 rounded-full  hover:bg-green-700 !-translate-x-16" data-carousel-prev>
+          <button id="slider-button-left" class="swiper-button-prev group !p-2 flex justify-center items-center border border-solid border-green-600 !w-12 !h-12 transition-all duration-500 rounded-full hover:bg-green-700 !-translate-x-16" data-carousel-prev>
             <svg class="h-5 w-5 text-green-600 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M10.0002 11.9999L6 7.99971L10.0025 3.99719" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
@@ -138,7 +140,8 @@
   }
 
   .swiper-pagination-bullet {
-    background: #4f46e5;
+    background: #15803D;
+
   }
 
   .swiper-button-prev::after,
@@ -154,6 +157,9 @@
     loop: false,
     slidesPerView: 2,
     spaceBetween: 20,
+    pagination: {
+      el: ".swiper-pagination",
+    },
     navigation: {
       nextEl: ".multiple-slide-carousel .swiper-button-next",
       prevEl: ".multiple-slide-carousel .swiper-button-prev",
