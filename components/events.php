@@ -22,7 +22,7 @@
 
 
         <div class='flex items-center mt-4'>
-          <a href="./views/agenda.php" class='mx-auto p-3 bg-green-700 text-white rounded inline-flex items-center gap-2 cursor-pointer hover:scale-110 hover:bg-green-800 transition duration-300'>
+          <a href="evenements" class='mx-auto p-3 bg-green-700 text-white rounded inline-flex items-center gap-2 cursor-pointer hover:scale-110 hover:bg-green-800 transition duration-300'>
             Tous nos évènements
             <img class="animate-bounce transform transition-transform duration-300 " src="./assets/agenda.svg" />
           </a>

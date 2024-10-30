@@ -1,3 +1,5 @@
+<?php  require_once './vendor/autoload.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,6 +62,7 @@
     $router->get('/home', function(){ require_once './views/index.php'; });
     $router->get('/nuisance', function(){ require_once './views/nuisance.php'; });
     $router->get('/presentation', function(){ require_once './views/presentation.php'; });
+    $router->get('/evenements', function(){ require_once './views/agenda.php'; });
     $router->run(); 
 ?>
 </body>
