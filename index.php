@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- PAS TOUCHE -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +39,23 @@
     }
     </script>
     <title>Cap Orne Accueil</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 </head>
 
-<body>
 
+<body>
     <?php
     require_once './components/header.php';
+    require_once './components/events.php';
 ?>
+<!-- <<<<<<< presentation
     <div class="w-full flex flex-col items-center justify-between p-6 space-x-6 w-">
         <div class="flex flex-col items-center space-x-3">
             <h3 class="text-sm font-medium truncate">Nos combats</h3>
@@ -47,11 +70,23 @@
             <div class="w-40">
                 <a href="./views/nuisance.php">Y accéder</a>
             </div>
+======= -->
+<div class="w-full flex flex-col items-center justify-between py-3 px-14 bg-cover bg-[url('./resource/section-nuisance-bg.svg')]">
+    <div class="flex flex-col items-center w-full px-10 py-5">
+        <h3 class="text-md font-medium truncate">Nos combats</h3>
+        <span class="text-sm">Héros du quotidien</span>
+    </div>
+    <div class="flex items-center justify-between pb-5">
+        <div class="px-5 w-80">
+            <p class="text-sm">Notre association lutte contre la pollution et l'urbanisation qui menacent la biodiversité de la rivière. Informez-vous sur ces enjeux cruciaux pour préserver cet écosystème fragile !</p>
+        </div>
+        <div class="w-40">
+            <a class="bg-blue-400 py-2 px-4 rounded-lg hover:text-white" href="./views/nuisance.php">Y accéder</a>
         </div>
     </div>
     <?php
     require_once './components/footer.php';
-?>
+    ?>
 </body>
 
 </html>
