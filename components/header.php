@@ -1,8 +1,9 @@
-<header class="bg-[#15803D] flex justify-between items-center px-4 ">
+<header class="bg-vert flex justify-between items-center px-4 ">
     <img class="w-24 h-24 rounded-lg bg-white my-4" src="assets/caporne.svg" alt="">
-    <ul class="self-end flex gap-2 text-lg">
-        <li><a class="text-white" href="#">Accueil</a></li>
-        <li class="text-white">|</li>
+    <ul class="self-end flex gap-2 text-lg text-white">
+        <li><a class="" href="./index.php">Accueil</a></li>
+        <li class="">|</li>
     </ul>
-    <p class="font-[kaisei] text-xl text-white">CAP ORNE</p>
+    <p class="font-kaisei text-xl text-white">CAP ORNE</p>
 </header>
+
