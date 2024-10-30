@@ -30,7 +30,7 @@ require_once ABSPATH . '/components/header.php';
                 <span class="absolute right-2 top-2 bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded"><?= $mutable->add($i, 'day')->isoFormat("DD/MM/YYYY") ?></span>
 
                 <a href="#">
-                    <img class="w-100 rounded-t-lg" src="./../assets/pexels-surdu-horia-743788511-29062581.jpg" alt="" />
+                    <img class="w-100 rounded-t-lg" src="./assets/pexels-surdu-horia-743788511-29062581.jpg" alt="" />
                 </a>
                 <div class="p-4 relative">
                     <a href="#">
