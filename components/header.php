@@ -1,1 +1,3 @@
-<header class="bg-green-800 text-white px-4 py-8">Beautiful header n'est ce pas</header>
+<div>
+    Header
+</div>
