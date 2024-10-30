@@ -1,18 +1,19 @@
 <section class="max-w-screen-lg	mx-auto mb-12">
-  
+
 
 
   <h2 class='text-2xl uppercase my-2'>
     <span class="bg-green-700 px-2 text-white">Evenements à venir</span>
   </h2>
-  
-  
+
+
 
   <div class="flex flex-row items-center">
     <!-- CONTENEUR 1/3 -->
-    <p class="w-1/3 p-6 text-xl pb-32">
-    Les prochains événements que nous organisons.  
-    <!-- Retrouvez quelques événements à venir prochainement organisés par notre association. -->
+    <p class="w-1/3 p-6 text-xl pb-32 ">
+      Lorem ipsum dolores, oui c'est je sais pas la suite.
+      Lorem ipsum dolores, oui c'est je sais pas la suite.
+      <!-- Retrouvez quelques événements à venir prochainement organisés par notre association. -->
     </p>
 
 
@@ -24,25 +25,30 @@
           <div class="swiper-slide">
             <div class="bg-indigo-50 rounded-2xl h-100 flex justify-center items-center">
               <!-- <span class="text-2xl font-semibold text-indigo-600">Evenement 1</span> -->
+              
+
+
               <article class="rounded-2xl relative bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <span class="absolute right-2 top-2 bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">12-11-2024</span>
+                <span class="absolute right-2 top-2 bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">12-11-2024</span>
 
-          <a href="#">
-            <img class="w-100 rounded-t-lg" src="./assets/pexels-surdu-horia-743788511-29062581.jpg" alt="" />
-          </a>
-          <div class="p-4 relative">
-            <a href="#">
-              <h5 class="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <p class='flex justify-end'>
-              <a href="#" class="relative right-1 bottom-1 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                En savoir +
-              </a>
+                <a href="#">
+                  <img class="w-100 rounded-t-lg" src="./assets/pexels-surdu-horia-743788511-29062581.jpg" alt="" />
+                </a>
+                <div class="p-4 relative">
+                  <a href="#">
+                    <h5 class="mb-1 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                  <p class='flex justify-end'>
+                    <a href="#" class="relative right-1 bottom-1 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-green-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      En savoir +
+                    </a>
 
-            </p>
-          </div>
-        </article>
+                  </p>
+                </div>
+              </article>
+
+
             </div>
           </div>
           <div class="swiper-slide">
@@ -55,8 +61,8 @@
               <span class="text-2xl font-semibold text-indigo-600">Evenement 3</span>
             </div>
           </div>
-  
-  
+
+
         </div>
         <div class="absolute flex justify-center items-center m-auto left-0 right-0 w-fit bottom-12">
           <button id="slider-button-left" class="swiper-button-prev group !p-2 flex justify-center items-center border border-solid border-indigo-600 !w-12 !h-12 transition-all duration-500 rounded-full  hover:bg-indigo-600 !-translate-x-16" data-carousel-prev>
@@ -79,18 +85,18 @@
 
   </div>
 
-  
-  
-  <div>
-  
-  
-  
 
-  
+
+  <div>
+
+
+
+
+
 
     <div id="events-list" class='flex flex-row justify-center gap-4 '>
 
-    
+
 
 
 
@@ -159,10 +165,11 @@
     background: #4f46e5;
   }
 
-  .swiper-button-prev::after,.swiper-button-next::after {
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
     content: none;
   }
-
+  
 </style>
 
 
