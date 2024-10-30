@@ -6,3 +6,4 @@
     </ul>
     <p class="font-kaisei text-xl text-white">CAP ORNE</p>
 </header>
+
