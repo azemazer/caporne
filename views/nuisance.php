@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-    require_once '../components/header.php';
+    require_once __DIR__ . '/../components/header.php';
 ?>
 <section class="w-full mx-auto py-10 bg-gray-50">
     <div class="w-fit pb-1 px-2 mx-4 rounded-md place-self-center text-5xl font-semibold border-b-2 border-jaune">Nuisances</div>
@@ -40,7 +40,7 @@
   </section>
 
 <?php
-    require_once '../components/footer.php';
+    require_once __DIR__ . '/../components/footer.php';
 ?>
 </body>
 
